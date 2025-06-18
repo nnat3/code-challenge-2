@@ -7,6 +7,15 @@ const categorySelect = document.getElementById('categoryType');
 // add event listener to the button
 addBtn.addEventListener('click', function() {
     const guestName = guestInput.value.trim();
+
+// limit guest list to 10
+    if (guestList.children.length >=10 ) {
+        alert("Guest list is full! You can only add upto 10 goests.");
+        return;
+    }
+
+
+    
     if (guestName !== "") {
         const li = document.createElement('li');
         li.textContent = guestName;
