@@ -27,13 +27,13 @@ A simple guest list web app built with HTML, CSS, and JavaScript — perfect for
  Live Demo
 
 Check it out here:  
-[https://nnat3.github.io/guest-list-manager/](https://nnat3.github.io/guest-list-manager/)
+[https://nnat3.github.io/guest-list-manager/](https://nnat3.github.io/code-challenge-2/)
 
  To Use Locally
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/nnat3/guest-list-manager.git
+   git clone https://github.com/nnat3/code-challenge-2.git
 
 2. Open index.html in your browser
 
