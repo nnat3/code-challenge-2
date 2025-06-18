@@ -23,11 +23,12 @@ addBtn.addEventListener('click', function() {
 
         li.appendChild(deleteBtn);
         guestList.appendChild(li);
-
-        // clear the input field and reset category
-        guestInput.value = '';
+       
+    guestInput.value = '';
         categorySelect.selectedIndex = 0; // reset category
     } else {
         alert('Please enter a guest name.');
     }
-});
+
+});  // clear the input field and reset category
+      
