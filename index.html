@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guest List Manager</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1 id="mainHeader">Guest List Manager</h1>
+
+<h1>Guest List Manager</h1>
+
 <div class="inputContainer">
-    <input type="text" id="guestName" placeholder="Enter guest name"><br><br>
-    <button id="enterBtn">Add Guest</button>
+    <input type="text" id="guestInput" placeholder="Enter guest name"><br><br>
+
+<select id="categoryType">
+    <option value="family">Family</option>
+    <option value="friends">Friends</option>
+    <option value="colleagues">Colleagues</option>
+</select>  
+
+    <button id="addBtn">Add Guest</button>
 </div>
 
-<ul class="guestList"></ul>
+<ul id="guestList"></ul>
 
 <script src="index.js"></script>
 </body>

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+   font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+#guestlist{
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: auto;
+}
+
+li {
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
