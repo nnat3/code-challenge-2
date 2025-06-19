@@ -6,8 +6,9 @@ const categorySelect = document.getElementById('categoryType');
 
 // add event listener to the button
 addBtn.addEventListener('click', function() {
-    const guestName = guestInput.value.trim();
-
+    const guestName = guestInput.value.trim()
+  const category = categorySelect.value;
+    
 // limit guest list to 10
     if (guestList.children.length >=10 ) {
         alert("Guest list is full! You can only add upto 10 goests.");
@@ -19,6 +20,16 @@ addBtn.addEventListener('click', function() {
     if (guestName !== "") {
         const li = document.createElement('li');
         li.textContent = guestName;
+
+         // Name span
+    const nameSpan = document.createElement("span");
+    nameSpan.textContent = guestName;
+
+    // Category span
+    const categoryTag = document.createElement("span");
+    categoryTag.textContent = category;
+    categoryTag.classList.add("tag", category.toLowerCase());
+
 
         // add delete button
         const deleteBtn = document.createElement('button');
